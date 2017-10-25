@@ -1,0 +1,36 @@
+body {
+  background-color: #510087;
+}
+label {
+  font-weight: bolder;
+}
+.box {
+  border-style: inset;
+  border-width: 5px;
+  border-radius: 3%;
+  border-color: black;
+  padding: 20px;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+img {
+  width: 50%;
+  float: right;
+  margin-bottom: 20px;
+  padding: -20px;
+  border-style: inset;
+  border-width: 5px;
+  border-radius: 3%;
+  border-color: black;
+}
+.output-box {
+  display: none;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  color: #510087;
+  font-family: serif;
+
+}

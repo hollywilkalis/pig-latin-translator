@@ -29,6 +29,6 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
     $("#output").text(translator($("#phrase").val())+ "."); //grabs and displays the outputted phrase
-
+    $(".output-box").show();
   });
 });
