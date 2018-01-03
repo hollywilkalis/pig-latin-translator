@@ -1,6 +1,6 @@
-Vowels: a e i o u (also y in positions other than 0)
+Vowels: a e i o u y
 
-1) Disregard non-alphabetic characters 
+1) Disregard non-alphabetic characters
 	Input: $
 	Output: $
 
@@ -8,17 +8,17 @@ Vowels: a e i o u (also y in positions other than 0)
 	Input: I
 	Output: iway
 
+3) If the word has only two letters and the second letter is a y, add "ay" to the word and stop
+	Input: by
+	Output: byay
+
 3) Adds “way” to multi-letter words beginning with a vowel
 	Input: area
 	Output: areaway
 
 4) If first letter is a consonant (not a vowel) move all the first consonants to the end of the word and add ay
-	Input: tea
-	Output: eatay
-
-4b) If word begins with a block of consonants, move all first consonants to the end of the word and add ay
-	Input: there
-	Output: erethay
+	Input: three
+	Output: eethray
 
 5) If first two letters are qu, move qu to the end and add ay
 	Input: queen
@@ -28,12 +28,6 @@ Vowels: a e i o u (also y in positions other than 0)
 	Input: squeal
 	Output: ealsquay
 
-7) If the first letter is a y, move it to the end and add ay:
-	Input: yellow
-	Output ellowyay
-
-8) If the first letter is a y, move it and any consecutive consonants to the end and add ay:
+7) If the first letter is a y, move it and any consecutive consonants to the end and add ay:
 	Input: Yvonne
-	Output: onneyvay
-
-9)
+	Output: yvonneway
